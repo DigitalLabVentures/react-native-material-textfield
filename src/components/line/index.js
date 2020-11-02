@@ -119,7 +119,7 @@ export default class Line extends PureComponent {
 
     return (
       <View style={styles.container} pointerEvents='none'>
-        <Animated.View style={[styles.line, lineStyle]} />
+        <Animated.View style={[styles.line, lineStyle, { borderBottomWidth: 1 }]} />
       </View>
     );
   }
