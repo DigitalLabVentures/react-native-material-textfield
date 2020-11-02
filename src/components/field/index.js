@@ -720,6 +720,6 @@ export default class TextField extends PureComponent {
 
         {this.renderHelper()}
       </View>
-    );
+    );  
   }
 }
