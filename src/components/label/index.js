@@ -6,7 +6,7 @@ import styles from './styles';
 
 export default class Label extends PureComponent {
   static defaultProps = {
-    numberOfLines: 1,
+    numberOfLines: 2,
     disabled: false,
     restricted: false,
   };
@@ -68,6 +68,7 @@ export default class Label extends PureComponent {
     if (null == label) {
       return null;
     }
+    console.log('labellabel',label)
 
     let color = disabled?
       baseColor:

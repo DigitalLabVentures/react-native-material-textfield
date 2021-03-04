@@ -6,7 +6,7 @@ import styles from './styles';
 
 export default class Affix extends PureComponent {
   static defaultProps = {
-    numberOfLines: 1,
+    numberOfLines: 2,
   };
 
   static propTypes = {
